@@ -1,7 +1,8 @@
 #ifndef STR_H
 #define STR_H
 
-#include <stddef.h>
+#include "stddef.h"
+
 char * strcpy(char * destination, const char * source);
 char * strcat(char * destination, const char * source);
 int strcmp(const char * str1, const char * str2);

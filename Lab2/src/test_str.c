@@ -1,7 +1,5 @@
-#include <stdio.h>
-#include "../include/test_str.h"
+#include "stdio.h"
 #include "../include/str.h"
-#include <stddef.h>
 
 void test_strcpy(){
    printf("Stoped");

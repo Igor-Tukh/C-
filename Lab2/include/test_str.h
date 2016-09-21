@@ -1,5 +1,5 @@
-#ifndef TEST_SRC_H
-#define TEST_SRC_H
+#ifndef TEST_STR_H
+#define TEST_STR_H
 
 void test_strcpy();
 void test_strcat();

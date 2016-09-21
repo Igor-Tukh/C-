@@ -1,5 +1,4 @@
-#include <stddef.h>
-#include "../include/str.h"
+#include "stddef.h"
 
 char * strcpy(char * destination, const char * source){
     char *destcopy = destination;
@@ -37,7 +36,7 @@ int strcmp(const char * str1, const char * str2){
 }
 
 size_t strlen(const char * str){
-	char * cur = str;
+    char * cur = str;
     while(*cur) cur++;
     return str - cur;
 }
