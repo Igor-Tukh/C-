@@ -12,7 +12,7 @@ char * strcpy(char * destination, const char * source){
     return destination;
 }
 
-char * strcat(char * destination, const char * source){
+char * strcat1(char * destination, const char * source){
     char *tail = destination;
     while (*tail) tail++;   
     char *sourcecopy = source;
@@ -38,7 +38,5 @@ int strcmp(const char * str1, const char * str2){
 size_t strlen(const char * str){
     char * cur = str;
     while(*cur) cur++;
-    return str - cur;
+    return cur - str;
 }
-
-
