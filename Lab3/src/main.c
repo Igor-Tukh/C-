@@ -15,7 +15,7 @@ void remove_position(struct intrusive_list *lst, int x, int y) {
   struct intrusive_node *cur = lst -> head;
   while (cur != NULL){
     struct position_node *pnode = container_of(cur, struct position_node, node);
-    struct intruisive_node *next = cur-> next;
+    struct intrusive_node *next = cur-> next;
     if (pnode -> x == x && pnode -> y == y){
       remove_node(lst, cur);
       free(pnode);   
@@ -53,14 +53,14 @@ void remove_all_positions(struct intrusive_list *lst) {
 }
 
 int main() {
-  char *c[100];
+  char c[100];
   int x, y;
   
   struct intrusive_list points;
   init_list(&points);
   
   while (1){
-    scanf("%s", &c);
+    scanf("%s", c);
     if (strcmp(c, "add") == 0){
       scanf("%d", &x);      
       scanf("%d", &y);
