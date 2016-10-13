@@ -47,6 +47,7 @@ int read_from_bin(FILE *fname){
 
 void write_to_bin(FILE *fname, int val){
     if (val < 0) val = ((1 << 24) - 1) + val;
+ 
     for (int i = 0; i < 3; i++){
         char write_val = (char)(val & ((1 << 8) - 1));
         fwrite(&write_val, sizeof(char), 1, fname);
