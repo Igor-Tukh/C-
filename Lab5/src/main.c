@@ -19,11 +19,13 @@ void print(struct intrusive_node *inode, void* arg){
     
 void apply(struct intrusive_list *lst, void (*op)(struct intrusive_node *node, void *), void *arg){
     struct intrusive_node *cur = lst -> head;
-    while (cur -> next != NULL) cur = cur -> next;
-    while (cur != NULL){
-        op(cur, arg);      
-        cur = cur -> prev;          
-    }   
+    if  (cur != NULL){
+        while (cur -> next != NULL) cur = cur -> next;
+        while (cur != NULL){
+            op(cur, arg);      
+            cur = cur -> prev;          
+        }
+    }       
 }
 
 // To make numbers signed we will use ones complemention method
@@ -40,13 +42,13 @@ int read_from_bin(FILE *fname){
         }        
     }
     if ((ans >> 23) == 1){
-        ans = ans - ((1 << 24) - 1);
+        ans = ans - ((1 << 24));
     }
     return ans;
 }
 
 void write_to_bin(FILE *fname, int val){
-    if (val < 0) val = ((1 << 24) - 1) + val;
+    if (val < 0) val = ((1 << 24)) + val;
  
     for (int i = 0; i < 3; i++){
         char write_val = (char)(val & ((1 << 8) - 1));
@@ -81,24 +83,28 @@ int main(int argc,  char* argv[]){
     if (strcmp(argv[3], "savetext") == 0){
         FILE *f = fopen(argv[4], "w"); 
         struct intrusive_node *cur = (&data) -> head;
-        while (cur -> next != NULL) cur = cur -> next;
-        while (cur != NULL){
-            struct position_node *pnode = container_of(cur, struct position_node, node);
-            fprintf(f, "%d %d\n", pnode -> x, pnode -> y);
-            cur = cur -> prev;
+        if  (cur != NULL){
+            while (cur -> next != NULL) cur = cur -> next;
+            while (cur != NULL){
+                struct position_node *pnode = container_of(cur, struct position_node, node);
+                fprintf(f, "%d %d\n", pnode -> x, pnode -> y);
+                cur = cur -> prev;
+            }
         }
         fclose(f);
     }
     else if (strcmp(argv[3], "savebin") == 0){
         FILE *f = fopen(argv[4], "wb"); 
         struct intrusive_node *cur = (&data) -> head;
-        while (cur -> next != NULL) cur = cur -> next;
-        while (cur != NULL){
-            struct position_node *pnode = container_of(cur, struct position_node, node);
-            write_to_bin(f, pnode -> x);
-            write_to_bin(f, pnode -> y);
-            cur = cur -> prev;
-        }
+        if  (cur != NULL){
+            while (cur -> next != NULL) cur = cur -> next;
+            while (cur != NULL){
+                struct position_node *pnode = container_of(cur, struct position_node, node);
+                write_to_bin(f, pnode -> x);
+                write_to_bin(f, pnode -> y);
+                cur = cur -> prev;
+            }
+        }    
         fclose(f);
     } else if (strcmp(argv[3], "count") == 0){
         int counter = 0;
