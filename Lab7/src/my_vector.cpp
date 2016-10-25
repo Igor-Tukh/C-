@@ -1,6 +1,7 @@
 #include "my_vector.h"
 #include <cassert>
 #include <utility>
+#include <cstdio>
 
 MyVector::MyVector(){
     _cp = 2;
@@ -9,6 +10,7 @@ MyVector::MyVector(){
 }
 
 MyVector::MyVector(std::size_t init_capacity){
+    assert (init_capacity > 0 && "MyVector::MyVector: capacity is lower or eqaul zero"); 
     _cp = init_capacity;
     _sz = 0;
     _data = new int[init_capacity];
@@ -43,7 +45,8 @@ void MyVector::reserve(std::size_t new_capacity){
     if (new_capacity > _cp){
         int * buf = new int[new_capacity];
         for(std::size_t i = 0; i < _sz; i++) buf[i] = _data[i];
-        delete[]_data;
+        std::swap(buf, _data);
+        delete[]buf;
         _data = buf;
         _cp = new_capacity;
     }
@@ -56,11 +59,17 @@ void MyVector::push_back(int value){
 }
   
 void MyVector::resize(std::size_t new_size){
-    for(std::size_t i = _sz; i < new_size; i++){
-        this -> push_back(0);
+    while (new_size > _cp)
+        _cp = _cp * 2;
+        
+    reserve(_cp);    
+    
+    
+    for(int i = (int)_sz; i < (int)new_size; i++){
+        _data[i] = 0;
     }
     
-    _sz = new_size;    
+    _sz = new_size;
 }
 
 void MyVector::insert(std::size_t index, int value){
@@ -78,9 +87,8 @@ void MyVector::insert(std::size_t index, int value){
 void MyVector::erase(std::size_t index){
     assert (index < _sz && "MyVector::erase: Index out of range"); 
     
-    for(std::size_t i = _sz - 1; i > index; i--){
+    for(std::size_t i = index + 1; i < _sz; i++){
         std::swap(_data[i - 1], _data[i]);
     }
-    
     _sz--;    
 }
