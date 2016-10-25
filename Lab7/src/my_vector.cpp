@@ -42,28 +42,34 @@ std::size_t MyVector::capacity(){
 
 
 void MyVector::reserve(std::size_t new_capacity){
-    if (new_capacity > _cp){
-        int * buf = new int[new_capacity];
-        for(std::size_t i = 0; i < _sz; i++) buf[i] = _data[i];
-        std::swap(buf, _data);
-        delete[]buf;
-        _data = buf;
-        _cp = new_capacity;
-    }
+    if (new_capacity <= _cp)
+        return;
+        
+    int * buf = new int[new_capacity];
+    
+    for(std::size_t i = 0; i < _sz; i++)
+        buf[i] = _data[i];
+    
+    std::swap(buf, _data);
+    delete[]buf;
+    
+    _cp = new_capacity;
 }
 
 void MyVector::push_back(int value){
-    if (_sz == _cp) this -> reserve(2 * _cp);
-    _data[_sz] = value;
-    _sz++;
+    if (_sz == _cp) 
+        reserve(2 * _cp);
+    
+    _data[_sz++] = value;
 }
   
 void MyVector::resize(std::size_t new_size){
-    while (new_size > _cp)
-        _cp = _cp * 2;
-        
-    reserve(_cp);    
+    std::size_t newcp = _cp;
     
+    while (new_size > newcp)
+       newcp = newcp * 2;
+        
+    reserve(newcp);    
     
     for(int i = (int)_sz; i < (int)new_size; i++){
         _data[i] = 0;
@@ -80,8 +86,7 @@ void MyVector::insert(std::size_t index, int value){
         std::swap(cur, _data[i]);
     } 
     
-    
-    this -> push_back(cur);
+    push_back(cur);
 }
 
 void MyVector::erase(std::size_t index){
