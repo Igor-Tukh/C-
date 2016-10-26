@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phonebook>
+	<human name="Ulla Sergeevna Chuchanova">
+		<phone>89595</phone>
+		<phone>18</phone>
+		<phone>012014671004175</phone>
+	</human>
+	<human name="Kristina Dmitrievna Kovalevskaya">
+		<phone>999</phone>
+		<phone>6067143376302975</phone>
+	</human>
+	<human name="Marina Valentinovna Klokova">
+		<phone>69187</phone>
+		<phone>8839635361810</phone>
+	</human>
+	<human name="Dariya Kirillovna Bugakova">
+		<phone>758743412</phone>
+		<phone>1189</phone>
+		<phone>38795058</phone>
+		<phone>7874</phone>
+		<phone>8085150693964266406</phone>
+		<phone>92662</phone>
+		<phone>3</phone>
+		<phone>69340123829970</phone>
+	</human>
+	<human name="Kristina Konstantinovna Ryabova">
+		<phone>14</phone>
+		<phone>43200495765</phone>
+		<phone>276425814742195221</phone>
+	</human>
+	<human name="Karlygash Genadievna Schedrina">
+		<phone>79</phone>
+		<phone>48691</phone>
+		<phone>805054411864939341</phone>
+		<phone>960871</phone>
+		<phone>5</phone>
+		<phone>4983</phone>
+		<phone>4360793758889330548</phone>
+	</human>
+	<human name="Milena Filippovna Skorobogatova">
+		<phone>3402433</phone>
+		<phone>99888284</phone>
+		<phone>821273</phone>
+		<phone>2225</phone>
+		<phone>1</phone>
+	</human>
+	<human name="Glafira Mihaylovna Koreneva">
+		<phone>199208089485679</phone>
+		<phone>17589924857322963</phone>
+		<phone>8398405</phone>
+		<phone>539550200</phone>
+		<phone>957906438492</phone>
+		<phone>9567174448513835</phone>
+		<phone>6635</phone>
+		<phone>4109260439198383</phone>
+	</human>
+	<human name="Fillida Kirillovna Tupoleva">
+		<phone>820338984447659455</phone>
+		<phone>69974</phone>
+		<phone>2</phone>
+		<phone>059734769777334109</phone>
+	</human>
+	<human name="Karolina Lyvovna Klimushina">
+		<phone>59523</phone>
+		<phone>485172611</phone>
+		<phone>0890456555734790</phone>
+		<phone>42199</phone>
+	</human>
+	<human name="Sheyla Sergeevna Rychenkova">
+		<phone>7091393538105880</phone>
+		<phone>70566775891187008</phone>
+		<phone>50803814304653809</phone>
+		<phone>992803183103</phone>
+		<phone>6356</phone>
+		<phone>303929572374</phone>
+		<phone>831657952</phone>
+	</human>
+	<human name="Marina Vladimirovna Bugakova">
+		<phone>9408901</phone>
+		<phone>203128868811</phone>
+	</human>
+	<human name="Kseniya Aleksandrovna Barsukova">
+		<phone>09960274253</phone>
+		<phone>6466770</phone>
+		<phone>7966273181602562856</phone>
+	</human>
+	<human name="Vladislava Bogdanovna Prihodyko">
+		<phone>6345373289</phone>
+		<phone>0953770795625108</phone>
+		<phone>45020705438250</phone>
+	</human>
+	<human name="Ulla Nikolaevna Pervak">
+		<phone>504470834138700</phone>
+		<phone>29085587</phone>
+		<phone>848643148810866</phone>
+		<phone>147179669426419277</phone>
+	</human>
+	<human name="Emi Egorovna Guschina">
+		<phone>10919580</phone>
+	</human>
+	<human name="Zinaida Vyacheslavovna Kazarezova">
+		<phone>860924667</phone>
+		<phone>15228544675</phone>
+		<phone>808872</phone>
+		<phone>8666869445198830797</phone>
+		<phone>76854054882861</phone>
+		<phone>6950311492</phone>
+		<phone>216164</phone>
+		<phone>411475470453114</phone>
+		<phone>17941188397</phone>
+	</human>
+	<human name="Ulla Yuryevna Fedchenkova">
+		<phone>648</phone>
+		<phone>142399</phone>
+	</human>
+	<human name="Nazguly Stepanovna Entina">
+		<phone>31082183682</phone>
+		<phone>5557115</phone>
+		<phone>49100184313</phone>
+		<phone>25778</phone>
+	</human>
+	<human name="Boghena Genadievna Egorova">
+		<phone>811504851</phone>
+		<phone>6549833148</phone>
+		<phone>657535590191</phone>
+		<phone>617480977</phone>
+		<phone>8581722917761442</phone>
+		<phone>5280</phone>
+	</human>
+	<human name="Avgusta Tarasovna Tipalova">
+		<phone>98</phone>
+		<phone>93942236437226560</phone>
+		<phone>071094281</phone>
+		<phone>09792654893</phone>
+		<phone>207484203207</phone>
+	</human>
+	<human name="Evfrosiniya Valentinovna Yuganceva">
+		<phone>23210356826751</phone>
+		<phone>7876296648398660</phone>
+	</human>
+	<human name="Vasilisa Lyvovna Ageykina">
+		<phone>7695875596376927701</phone>
+		<phone>506</phone>
+		<phone>88990227834</phone>
+		<phone>1</phone>
+		<phone>40897601381768749</phone>
+		<phone>20742033</phone>
+	</human>
+	<human name="Tatyyana Egorovna Ghukova">
+		<phone>86706507801569</phone>
+		<phone>2134300</phone>
+		<phone>2318</phone>
+		<phone>542511596</phone>
+		<phone>668927999</phone>
+		<phone>24544370473135946</phone>
+		<phone>5442033</phone>
+		<phone>043</phone>
+	</human>
+	<human name="Karmen Viktorovna Schedrina">
+		<phone>047944875</phone>
+		<phone>4682336978</phone>
+		<phone>13456</phone>
+		<phone>245669</phone>
+		<phone>7</phone>
+	</human>
+	<human name="Masha Egorovna Chekmarev">
+		<phone>86360</phone>
+		<phone>28897</phone>
+		<phone>209887222084577522</phone>
+		<phone>105914194388587</phone>
+		<phone>96731945514246477</phone>
+		<phone>6870913800896765377</phone>
+		<phone>428842701410</phone>
+		<phone>1032534724512149</phone>
+		<phone>152258620861</phone>
+	</human>
+	<human name="Elena Feliksovna Grigoryeva">
+		<phone>77914352793</phone>
+		<phone>835577</phone>
+		<phone>533532832330222</phone>
+		<phone>951120661138</phone>
+		<phone>2</phone>
+		<phone>5732172</phone>
+		<phone>95027243</phone>
+	</human>
+	<human name="Anely Valeryevna Shevaelek">
+		<phone>602917819786209934</phone>
+		<phone>0650895201669989259</phone>
+		<phone>684335440852404519</phone>
+	</human>
+	<human name="Aliya Georgievna Anisimova">
+		<phone>261398255090364865</phone>
+		<phone>11856175593</phone>
+		<phone>3976</phone>
+		<phone>50</phone>
+		<phone>03528178046154847</phone>
+	</human>
+	<human name="Anna Alekseevna Guschina">
+		<phone>92681631266785</phone>
+		<phone>7</phone>
+		<phone>0391152539866</phone>
+		<phone>7135210</phone>
+		<phone>360277560522937</phone>
+		<phone>020</phone>
+		<phone>09570</phone>
+		<phone>422</phone>
+	</human>
+	<human name="Inna Ilyinichna Stepashina">
+		<phone>02651723116</phone>
+		<phone>483583643667084768</phone>
+	</human>
+	<human name="Kseniya Evgenyevna Pogodina">
+		<phone>32</phone>
+		<phone>6312272721007</phone>
+		<phone>633627607</phone>
+	</human>
+	<human name="Yana Egorovna Yankovaskaya">
+		<phone>3942474859590</phone>
+		<phone>0718</phone>
+		<phone>67463456474915</phone>
+		<phone>3039808400227</phone>
+		<phone>08472009583</phone>
+		<phone>356011042153</phone>
+	</human>
+	<human name="Boghena Evgenyevna Ghukova">
+		<phone>1491893014808353</phone>
+		<phone>5</phone>
+		<phone>280697966</phone>
+		<phone>5541752804</phone>
+		<phone>52157888642</phone>
+	</human>
+	<human name="Kleopatra Tarasovna Klimushina">
+		<phone>8121807994177</phone>
+		<phone>820298096839410998</phone>
+		<phone>2</phone>
+	</human>
+	<human name="Karlygash Arkadyevna Lobanova">
+		<phone>3432110524427</phone>
+		<phone>0</phone>
+		<phone>8101111</phone>
+		<phone>4</phone>
+		<phone>249</phone>
+		<phone>44506618155772</phone>
+	</human>
+	<human name="Karlygash Alekseevna Prihodyko">
+		<phone>923135707</phone>
+		<phone>90</phone>
+		<phone>568</phone>
+		<phone>4</phone>
+		<phone>38</phone>
+		<phone>876086000123</phone>
+		<phone>78177387355380420</phone>
+	</human>
+	<human name="Anisiya Romanovna Korchagina">
+		<phone>7038042</phone>
+		<phone>12321072007536708</phone>
+		<phone>3077368868594617</phone>
+		<phone>406608474074</phone>
+	</human>
+	<human name="Anastasiya Konstantinovna Babicheva">
+		<phone>7825685399927</phone>
+		<phone>7983167809</phone>
+		<phone>6146493410</phone>
+		<phone>2541554453336426247</phone>
+		<phone>194755</phone>
+		<phone>99211774430803160</phone>
+		<phone>8804525</phone>
+		<phone>8413622065830480</phone>
+	</human>
+	<human name="Tatyyana Aleksandrovna Pokrovskaya">
+		<phone>825649387061</phone>
+		<phone>106</phone>
+	</human>
+	<human name="Yaroslava Olegovna Korchagina">
+		<phone>7156485242087648927</phone>
+		<phone>095213817924</phone>
+	</human>
+	<human name="Agrippina Mihaylovna Ghukova">
+		<phone>71191</phone>
+		<phone>8969016217</phone>
+	</human>
+	<human name="Aurika Evgenyevna Savrasova">
+		<phone>29363656525657995</phone>
+		<phone>66093222183515443</phone>
+		<phone>288903570678</phone>
+		<phone>545699843678043675</phone>
+		<phone>538766692579036</phone>
+	</human>
+	<human name="Ioanna Ivanovna Bolyshova">
+		<phone>83675</phone>
+		<phone>22971621589192763</phone>
+		<phone>098547</phone>
+		<phone>52048260353974</phone>
+		<phone>7497885187282656378</phone>
+		<phone>7</phone>
+	</human>
+	<human name="Eva Igorevna Tyannikova">
+		<phone>08974</phone>
+		<phone>348323</phone>
+	</human>
+	<human name="Gulynar Ilyinichna Malinina">
+		<phone>5494894569146365</phone>
+		<phone>316854109740578</phone>
+		<phone>6205674508466910270</phone>
+		<phone>3202965</phone>
+		<phone>3</phone>
+		<phone>925993839133704</phone>
+	</human>
+	<human name="Veronika Semenovna Malinina">
+		<phone>6248465930424</phone>
+		<phone>3433944</phone>
+		<phone>9</phone>
+		<phone>3</phone>
+		<phone>1532724421072507746</phone>
+		<phone>015</phone>
+		<phone>70383</phone>
+		<phone>3537721463563713</phone>
+	</human>
+	<human name="Ulla Fedorovna Tihomirova">
+		<phone>86006</phone>
+		<phone>3451024906</phone>
+		<phone>653118051</phone>
+		<phone>712210416643</phone>
+		<phone>734146942495887</phone>
+	</human>
+	<human name="Konstanciya Vasilyevna Tipalova">
+		<phone>8659067820015629</phone>
+	</human>
+	<human name="Beata Kirillovna Fanina">
+		<phone>73850585</phone>
+		<phone>15684952</phone>
+		<phone>949105519177</phone>
+	</human>
+	<human name="Aygerim Vasilyevna Schedrina">
+		<phone>3</phone>
+	</human>
+	<human name="Arna Yakovlevna Chirkash">
+		<phone>56</phone>
+	</human>
+	<human name="Yana Arkadyevna Korchagina">
+		<phone>398220002</phone>
+		<phone>11957100481486049</phone>
+		<phone>0965849359391</phone>
+	</human>
+	<human name="Kristina Dmitrievna Korchagina">
+		<phone>3298</phone>
+		<phone>0</phone>
+		<phone>2648580645715066579</phone>
+		<phone>715657551715484</phone>
+		<phone>6401272970727754812</phone>
+		<phone>890262722368069433</phone>
+		<phone>23060716820339</phone>
+		<phone>5804020800624</phone>
+	</human>
+	<human name="Sheyla Eduardovna Citnikova">
+		<phone>9919307502828508</phone>
+		<phone>20213495010941</phone>
+		<phone>63195047359</phone>
+		<phone>21264407946467754</phone>
+		<phone>8</phone>
+		<phone>399005852785123</phone>
+		<phone>94</phone>
+	</human>
+	<human name="Aleksandra Lyvovna Kolesnikova">
+		<phone>72226208829826</phone>
+		<phone>796767094930762234</phone>
+		<phone>72</phone>
+		<phone>80721748</phone>
+		<phone>372051</phone>
+		<phone>471</phone>
+		<phone>796931608818100</phone>
+		<phone>760399724041</phone>
+		<phone>63471602</phone>
+	</human>
+	<human name="Ghanna Vyacheslavovna Bolotnikova">
+		<phone>1551</phone>
+		<phone>3808</phone>
+		<phone>081686964421583908</phone>
+	</human>
+	<human name="Eva Fedorovna Fedchenkova">
+		<phone>94844124</phone>
+		<phone>0</phone>
+		<phone>99317</phone>
+		<phone>5901862044597884628</phone>
+		<phone>52270483553</phone>
+		<phone>53351655235015</phone>
+		<phone>984959349734</phone>
+	</human>
+	<human name="Marina Antonovna Grigoryeva">
+		<phone>18224007579627723</phone>
+		<phone>922439784759587</phone>
+		<phone>34153</phone>
+		<phone>22461294289442</phone>
+		<phone>1201898867</phone>
+		<phone>096370727068588453</phone>
+		<phone>141171059653</phone>
+	</human>
+	<human name="Fillida Dmitrievna Larina">
+		<phone>2479437145</phone>
+		<phone>98605914012197</phone>
+		<phone>0567081097589936044</phone>
+		<phone>1335569766383956</phone>
+		<phone>68863653215886919</phone>
+		<phone>766644</phone>
+		<phone>4</phone>
+		<phone>9068847493945</phone>
+	</human>
+	<human name="Aziza Vyacheslavovna Abakumova">
+		<phone>447315979574</phone>
+		<phone>8636495999</phone>
+		<phone>565528363196604863</phone>
+		<phone>338</phone>
+		<phone>948539665212406337</phone>
+		<phone>95</phone>
+		<phone>53307637752827703</phone>
+		<phone>45</phone>
+	</human>
+	<human name="Zulyfiya Ilyinichna Suvorkina">
+		<phone>048193</phone>
+		<phone>361057</phone>
+		<phone>222069063600</phone>
+	</human>
+	<human name="Konstanciya Fedorovna Maksimushkina">
+		<phone>944069198315017</phone>
+		<phone>300526888</phone>
+		<phone>40</phone>
+		<phone>67</phone>
+		<phone>3169380333837772</phone>
+		<phone>97157</phone>
+	</human>
+	<human name="Anastasiya Evgenyevna Tupoleva">
+		<phone>44307678</phone>
+	</human>
+	<human name="Fillida Arkadyevna Babkina">
+		<phone>4251043933</phone>
+		<phone>0035611276372254168</phone>
+		<phone>210334829151206</phone>
+		<phone>192</phone>
+	</human>
+	<human name="Ghaklin Sergeevna Aspidova">
+		<phone>9</phone>
+	</human>
+	<human name="Yasna Stanislavovna Harlamova">
+		<phone>3</phone>
+		<phone>3306911026167</phone>
+		<phone>807315013077009483</phone>
+		<phone>811121493</phone>
+		<phone>83</phone>
+		<phone>026276</phone>
+		<phone>26299595</phone>
+		<phone>443775091143196</phone>
+		<phone>3453115955</phone>
+	</human>
+	<human name="Lada Igorevna Prihodyko">
+		<phone>2079721</phone>
+		<phone>5228337571</phone>
+	</human>
+	<human name="Marina Stepanovna Belikova">
+		<phone>6926102</phone>
+		<phone>42441</phone>
+		<phone>523063500294</phone>
+		<phone>90</phone>
+		<phone>6611533788144</phone>
+		<phone>214</phone>
+		<phone>11893112761999800</phone>
+		<phone>3603417</phone>
+	</human>
+	<human name="Nazguly Viktorovna Bugakova">
+		<phone>6337</phone>
+		<phone>8050743634437</phone>
+		<phone>9392720781808</phone>
+		<phone>57737354702</phone>
+		<phone>497</phone>
+	</human>
+	<human name="Violetta Aleksandrovna Caricyna">
+		<phone>932100</phone>
+		<phone>9</phone>
+		<phone>227900</phone>
+		<phone>5724776</phone>
+	</human>
+	<human name="Vladislava Mihaylovna Pervak">
+		<phone>0081</phone>
+		<phone>124345699</phone>
+		<phone>89676</phone>
+		<phone>9036854203</phone>
+	</human>
+	<human name="Gulynar Fedorovna Anisimova">
+		<phone>4920578483389265170</phone>
+		<phone>57</phone>
+		<phone>97</phone>
+		<phone>323009</phone>
+		<phone>29719193694881051</phone>
+		<phone>2884889032</phone>
+		<phone>214</phone>
+		<phone>8</phone>
+		<phone>32688837649381761</phone>
+	</human>
+	<human name="Lyudmila Konstantinovna Fedina">
+		<phone>45876</phone>
+		<phone>3718</phone>
+		<phone>0798</phone>
+		<phone>86699428</phone>
+		<phone>4093380</phone>
+		<phone>676</phone>
+		<phone>2</phone>
+	</human>
+	<human name="Alena Genadievna Boykova">
+		<phone>784982683002344</phone>
+		<phone>0</phone>
+		<phone>10999721393153104</phone>
+		<phone>4008300876175</phone>
+		<phone>94483816</phone>
+		<phone>603135659857389257</phone>
+	</human>
+	<human name="Faina Stepanovna Chupova">
+		<phone>8632460442766</phone>
+	</human>
+	<human name="Anisyya Bogdanovna Chupova">
+		<phone>936740</phone>
+		<phone>25</phone>
+		<phone>6537361843486</phone>
+		<phone>44707038515</phone>
+		<phone>194</phone>
+		<phone>70</phone>
+	</human>
+	<human name="Aleksandra Vasilyevna Bolotnikova">
+		<phone>074413269</phone>
+		<phone>305654161393</phone>
+		<phone>52015995280</phone>
+		<phone>25084826583111370</phone>
+	</human>
+	<human name="Yulianna Feliksovna Novoselyceva">
+		<phone>958012110362320</phone>
+		<phone>9754996466224</phone>
+		<phone>1689</phone>
+		<phone>9392348580751</phone>
+	</human>
+	<human name="Yaroslava Romanovna Ershova">
+		<phone>410054705586399312</phone>
+		<phone>1971</phone>
+	</human>
+	<human name="Mod Genadievna Ershova">
+		<phone>3</phone>
+		<phone>074291681</phone>
+		<phone>390702</phone>
+		<phone>1612696443</phone>
+		<phone>282</phone>
+		<phone>76667279600</phone>
+		<phone>9111475736</phone>
+		<phone>02894818594378085</phone>
+		<phone>062176643509221</phone>
+	</human>
+	<human name="Agniya Valeryevna Maksimushkina">
+		<phone>554103</phone>
+		<phone>336642071856128040</phone>
+		<phone>630607358</phone>
+		<phone>009667217926</phone>
+		<phone>877</phone>
+	</human>
+	<human name="Elena Maksimovna Lobanova">
+		<phone>048945416046102843</phone>
+		<phone>362061051659617762</phone>
+		<phone>90</phone>
+		<phone>36659494</phone>
+		<phone>526</phone>
+		<phone>98761330</phone>
+		<phone>59134</phone>
+		<phone>24061</phone>
+		<phone>3243678135035</phone>
+	</human>
+	<human name="Arna Grigoryevna Buryakova">
+		<phone>40963398916</phone>
+		<phone>9944211246842549598</phone>
+		<phone>07</phone>
+		<phone>52732192017630984</phone>
+	</human>
+	<human name="Valentina Sergeevna Stepankova">
+		<phone>69857</phone>
+		<phone>57819861986</phone>
+	</human>
+	<human name="Olesya Bogdanovna Komzina">
+		<phone>77215035314462441</phone>
+		<phone>70</phone>
+		<phone>52430525392115620</phone>
+		<phone>718190853</phone>
+		<phone>448082387</phone>
+		<phone>3177202044225336312</phone>
+		<phone>663681849624911</phone>
+		<phone>35389806</phone>
+		<phone>546985570451292038</phone>
+	</human>
+	<human name="Karina Andreevna Larina">
+		<phone>6087</phone>
+		<phone>051509485255639023</phone>
+		<phone>6222394294</phone>
+		<phone>7470</phone>
+		<phone>79876054</phone>
+		<phone>8310848081477</phone>
+	</human>
+	<human name="Valentina Vladimirovna Klimushina">
+		<phone>6478377139690</phone>
+		<phone>4363753589555375</phone>
+		<phone>698435361</phone>
+		<phone>22587040</phone>
+		<phone>134939705456074722</phone>
+		<phone>8</phone>
+	</human>
+	<human name="Inna Vladislavovna Pivovarova">
+		<phone>064</phone>
+		<phone>610281798745505</phone>
+	</human>
+	<human name="Yaroslava Vladimirovna Schegelyskaya">
+		<phone>746465182568</phone>
+		<phone>62789889334598256</phone>
+		<phone>20998506</phone>
+		<phone>7478107196</phone>
+		<phone>0936446992242</phone>
+		<phone>5097864353</phone>
+		<phone>509</phone>
+		<phone>6877344903135</phone>
+		<phone>7920898633281</phone>
+	</human>
+	<human name="Liviya Vladislavovna Maksimushkina">
+		<phone>16762</phone>
+		<phone>6449716718</phone>
+		<phone>19784</phone>
+	</human>
+	<human name="Evfrosiniya Bogdanovna Malinina">
+		<phone>45256024250899837</phone>
+	</human>
+	<human name="Konstanciya Konstantinovna Solodnikova">
+		<phone>43796941508756</phone>
+		<phone>80331152900</phone>
+		<phone>670344132293</phone>
+		<phone>93669560823</phone>
+		<phone>9719905708169</phone>
+		<phone>9274168847319432</phone>
+		<phone>2291196</phone>
+		<phone>261089926434</phone>
+		<phone>1</phone>
+	</human>
+	<human name="Aurika Igorevna Koreneva">
+		<phone>15799980108126</phone>
+		<phone>24446</phone>
+		<phone>00</phone>
+	</human>
+	<human name="Faina Grigoryevna Rychenkova">
+		<phone>060138027920124399</phone>
+		<phone>551281445703893923</phone>
+		<phone>5339344975040</phone>
+		<phone>8269827652447581</phone>
+		<phone>54059419369067</phone>
+		<phone>14996651017</phone>
+		<phone>769633702</phone>
+	</human>
+	<human name="Klavdiya Evgenyevna Chirkash">
+		<phone>3</phone>
+	</human>
+	<human name="Liviya Semenovna Babicheva">
+		<phone>6885748</phone>
+		<phone>76544637908</phone>
+		<phone>5174123752631480097</phone>
+		<phone>7</phone>
+		<phone>4</phone>
+		<phone>1703907526159524</phone>
+		<phone>892202392</phone>
+		<phone>6</phone>
+	</human>
+	<human name="Karina Bogdanovna Lazareva">
+		<phone>956243615</phone>
+		<phone>0036135</phone>
+		<phone>776</phone>
+		<phone>60349</phone>
+		<phone>328574720355677</phone>
+	</human>
+	<human name="Avreliya Efimovna Ryabova">
+		<phone>2</phone>
+		<phone>81</phone>
+		<phone>6391</phone>
+		<phone>2672</phone>
+		<phone>49889334103251</phone>
+		<phone>8628784077524265</phone>
+		<phone>5696132</phone>
+		<phone>55</phone>
+	</human>
+	<human name="Rebekka Olegovna Chughinova">
+		<phone>5814</phone>
+		<phone>7657271</phone>
+		<phone>48516588023</phone>
+	</human>
+</phonebook>
