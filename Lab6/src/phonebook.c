@@ -6,7 +6,7 @@
 #include "../include/phonebook.h"
 #include "../include/names.h"
 
-#define BUFFER_SIZE 500
+#define BUFFER_SIZE 1000
 
 typedef struct data_s {
     phonebook_t *book;
@@ -116,9 +116,10 @@ int load_phonebook_xml(const char *filename, phonebook_t *book){
     } while (!done);
 
     qsort(data.book -> humans, data.book -> size, sizeof(human_t), compar);
+    
     XML_ParserFree(parser);
     fclose(fp);
-    
+       
     return 0;
 }
 
@@ -138,9 +139,7 @@ int save_phonebook_xml(const char *filename, phonebook_t *book){
         
         fprintf(fp, "\t<human name=\"%s %s %s\">\n", cur_human.name, cur_human.middle_name, cur_human.family_name);
         for(int j = 0; j < cur_human.numbers_cnt; j++){
-            if (strlen(cur_human.phones[j]) > 0){
-               fprintf(fp, "\t\t<phone>%s</phone>\n", cur_human.phones[j]);
-            }
+            fprintf(fp, "\t\t<phone>%s</phone>\n", cur_human.phones[j]);    
         }
         fprintf(fp, "\t</human>\n");
     }
@@ -174,10 +173,7 @@ void print_phonebook(phonebook_t *book){
 void gen_phonebook(phonebook_t *book, size_t size){
     srand(time(NULL));
     
-    clear_phonebook(book);
-    
-    book = malloc(sizeof(phonebook_t));
-    
+    free(book -> humans);
     book -> size = 0;
     book -> capacity = 1;
     book -> humans = malloc(sizeof(human_t));
@@ -196,7 +192,7 @@ void gen_phonebook(phonebook_t *book, size_t size){
         size_t number_cnt = rand() % 9 + 1;
         
         for(int j = 0; j < number_cnt; j++){
-            int len = rand() % 19 + 1;
+            int len = rand() % 13 + 7;
             
             for(int k = 0; k < len; k++){
                 int r = rand() % 10;
@@ -209,7 +205,7 @@ void gen_phonebook(phonebook_t *book, size_t size){
         
         new_human.numbers_cnt = number_cnt;
         push_back_human(book, &new_human);
-    }   
+    } 
 }
 
 void clear_phonebook(phonebook_t *book){
