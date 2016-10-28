@@ -31,7 +31,11 @@ void start_element(void *data, const char *element, const char **attribute) {
         new_human.numbers_cnt = 0;
         data_t *cur_data = (data_t *) data;
         push_back_human(cur_data -> book, &new_human);        
-    }    
+    }
+    if (strcmp(element, "phone") == 0){
+        data_t *cur_data = (data_t *) data;
+        (((cur_data -> book -> humans)[cur_data -> book -> size - 1]).phones[cur_data -> number_cnt])[0] = '\0';       
+    }
 }
 
 void get_number(const char *content, char * dest, int length){
@@ -47,9 +51,13 @@ void get_number(const char *content, char * dest, int length){
 }
 
 void end_element(void *data, const char *element) {
+    data_t *cur_data = (data_t *) data;
     if (strcmp(element, "human") == 0){
-        data_t *cur_data = (data_t *) data;
         cur_data -> number_cnt = 0;    
+    }
+    if (strcmp(element, "phone") == 0){
+        (cur_data -> book -> humans)[cur_data -> book -> size - 1].numbers_cnt++;
+        cur_data -> number_cnt++;   
     }
 }
 
@@ -62,8 +70,7 @@ void handle_data(void *data, const char *content, int length) {
         get_number(content, number, length);
     
         if (strlen(number)){
-            strcpy((book -> humans)[book -> size - 1].phones[cur_data -> number_cnt++], number);
-            (book -> humans)[book -> size - 1].numbers_cnt++;
+            strcat((book -> humans)[book -> size - 1].phones[cur_data -> number_cnt], number);
         }
         
         free(number);
@@ -166,7 +173,10 @@ void print_phonebook(phonebook_t *book){
             else{
                 break;
             }
-        }    
+       }
+       if (i != book -> size - 1)
+            printf("\n");
+            
     }    
 }
 
