@@ -23,8 +23,7 @@ int main() {
 
     scheme.zoom_figure(1, 2);
     scheme.print_all_figures();
-    scheme.remove_figure(1);
+    scheme.remove_figure(2);
     scheme.print_all_figures();
-
     return 0;
 }

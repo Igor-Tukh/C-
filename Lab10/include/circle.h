@@ -8,7 +8,7 @@ class Circle : public Figure {
     ~Circle();
 
     void print() const ;
-    bool is_inside(const int x, const int y);
+    bool is_inside(const int x, const int y) const;
     void zoom(const int factor);
   private:
     char* name;

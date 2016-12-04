@@ -14,5 +14,5 @@ void Figure::move(const int new_x, const int new_y){
 int Figure::get_id(){
     return id;
 }
-    
 
+Figure::~Figure() {}

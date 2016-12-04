@@ -8,6 +8,10 @@ Scheme::Scheme(int capacity){
 }
 
 Scheme::~Scheme(){
+    
+    for(int i = 0; i < sz; i++)
+        delete figures_[i];
+
     delete [] figures_;
 }
 
@@ -20,6 +24,7 @@ void Scheme::remove_figure(const int id){
         if (id == figures_[i]->get_id()){
             for(int j = i; j < sz; j++)
                 std::swap(figures_[j], figures_[j + 1]);
+            delete figures_[sz];
             sz--;
             break;
         }
